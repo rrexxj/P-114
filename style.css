@@ -1,0 +1,34 @@
+h1{
+    width: 75%;
+    font-size: 30px !important;
+    background-color:rgb(129, 59, 1);
+    
+ }
+ footer{
+     position: fixed;
+     bottom: 0;
+     width: 100%;
+     text-align: center;
+     background-color: rgb(218, 255, 196);
+     line-height: 2;
+     font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+ body{
+     background-image: linear-gradient(rgb(129, 59, 1) 0%, rgb(218, 255, 196) 100%);
+     height: 100vh;
+     text-shadow: 2px, 2px, 2px black !important;
+ }
+ 
+ canvas {
+     animation-name: example;
+     animation-duration: 4s;
+     animation-iteration-count: infinite;
+ }
+ 
+ 
+ @keyframes example {
+ 
+ from {box-shadow: 1px 1px 38px red;}
+ to {box-shadow: 1px 1px 38px yellow;}
+ 
+ }
